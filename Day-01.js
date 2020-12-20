@@ -5,7 +5,7 @@ fs = require('fs');
 var numbers = fs.readFileSync('Assets/Day-01/input.txt', 'utf8').split('\n').map(x=>+x);
 
 // Define values we'll use
-var num1, num2, sum, abort=false;;
+var num1, num2, sum, abort=false;athe   
 
 // main loop
 for (let i = 0; i < numbers.length; i++) {
@@ -22,4 +22,4 @@ for (let i = 0; i < numbers.length; i++) {
     }
 }
 
-console.log('The multiplicative sum is:'+sum);
+console.log('The multiplicative sum is: '+sum);
