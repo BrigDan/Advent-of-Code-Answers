@@ -20,4 +20,5 @@ console.log(numRange);
         - Convert letter to be required into array
         - Convert string into an array
         - Iterate through each line of text, matching the letter the amount of times between the range
-*/
+        - Output in a nice format
+        */
